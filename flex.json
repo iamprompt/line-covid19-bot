@@ -1,0 +1,173 @@
+{
+  "type": "bubble",
+  "size": "giga",
+  "direction": "ltr",
+  "header": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "รายงานสถานการณ์​โควิด-19",
+        "color": "#FFFFFF",
+        "weight": "bold",
+        "align": "center",
+        "size": "xxl"
+      },
+      {
+        "type": "text",
+        "text": "ข้อมูลวันที่ 09/05/2021 11:24",
+        "size": "md",
+        "color": "#FFFFFF",
+        "weight": "regular"
+      }
+    ],
+    "alignItems": "center"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "ติดเชื้อสะสม",
+                    "color": "#FFFFFF",
+                    "size": "lg"
+                  },
+                  {
+                    "type": "text",
+                    "text": "83,375",
+                    "color": "#FFFFFF",
+                    "size": "3xl",
+                    "weight": "bold"
+                  }
+                ],
+                "backgroundColor": "#E1298EFF",
+                "alignItems": "center",
+                "paddingAll": "3%",
+                "cornerRadius": "10px"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "หายแล้ว",
+                "color": "#FFFFFF",
+                "size": "sm"
+              },
+              {
+                "type": "text",
+                "text": "53,605",
+                "color": "#FFFFFF",
+                "size": "xl",
+                "weight": "bold"
+              }
+            ],
+            "backgroundColor": "#046034",
+            "alignItems": "center",
+            "paddingAll": "3%",
+            "cornerRadius": "10px"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "รักษาอยู่ใน รพ.",
+                "color": "#FFFFFF",
+                "size": "sm"
+              },
+              {
+                "type": "text",
+                "text": "29,371",
+                "color": "#FFFFFF",
+                "size": "xl",
+                "weight": "bold"
+              }
+            ],
+            "backgroundColor": "#179c9b",
+            "alignItems": "center",
+            "paddingAll": "3%",
+            "cornerRadius": "10px"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "เสียชีวิต",
+                "color": "#FFFFFF",
+                "size": "sm"
+              },
+              {
+                "type": "text",
+                "text": "399",
+                "color": "#FFFFFF",
+                "size": "xl",
+                "weight": "bold"
+              }
+            ],
+            "backgroundColor": "#666666",
+            "alignItems": "center",
+            "paddingAll": "3%",
+            "cornerRadius": "10px"
+          }
+        ],
+        "spacing": "md"
+      }
+    ],
+    "spacing": "md"
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "ข้อมูล: กรมควบคุมโรค",
+          "uri": "https://covid19.ddc.moph.go.th/"
+        },
+        "color": "#006738",
+        "height": "sm",
+        "style": "primary",
+        "margin": "none"
+      }
+    ],
+    "paddingStart": "5%",
+    "paddingEnd": "5%"
+  },
+  "styles": {
+    "header": {
+      "backgroundColor": "#006738"
+    },
+    "body": {
+      "backgroundColor": "#FFFFFF"
+    }
+  }
+}
